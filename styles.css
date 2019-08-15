@@ -1,0 +1,24 @@
+/* Hex Codes:
+Light blue: #75e2e6
+Dark blue: #048eaa
+Background color: #ffffff
+White text: #ffffff
+Body text: #000000
+Font: Open Sans */
+h1 {
+  color: red;
+}
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  border-color: #3F8cA7;
+  border: 3px solid;
+}
+
+.nav-links {
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+}
