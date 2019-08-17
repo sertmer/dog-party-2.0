@@ -4,50 +4,60 @@
     <title>
     Dog Party 2.0
     </title>
-    <!-- css link not working? -->
-  <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <nav class= "navbar">
-        <img class=icon src="images/dog-icon.svg" alt="dog icon" height=50>
-        <ul class=nav-links>
-          <li>How To Dog</li>
-          <li>What Is Dogs</li>
-          <li>Facts From Dog</li>
+      <nav>
+        <img class=icon src="images/dog-icon.svg" alt="dog icon" height=50/>
+        <ul class="navbar-links">
+          <li><a class="nav-link" href="url goes here">How To Dog</a></li>
+          <li><a class="nav-link" href="url goes here">What Is Dogs</a></li>
+          <li><a class="nav-link" href="url goes here">Facts From Dog</a></li>
         </ul>
       </nav>
     </header>
-    <section class="splash">
-      <h1>A Site About <strong>Some Dogs</strong></h1>
-      <img class="circle" src="images/dog1-sq.jpg" alt="photo of a curious boy">
-      <form action=" ">
-        <p>Name<input type="text" name="dog name"/></p>
-        <button class="dog-name"></button>
-      </form>
-      <img src="images/park.jpg" alt="photo of a park">
-    </section>
-    <section class="main">
-      <article class="column">
-        <h2>How To Dog</h2>
-        <img class="circle" src="images/dog2-sq.jpg" alt="photo of a pitbull">
-        <p>Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuute you are doing me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boopers pupper heck ruff.</p>
-        <button class="blue-button"></button>
-      </article>
-      <article class="column">
-        <h2>What Is Dogs</h2>
-        <img class="circle" src="images/dog3-sq.jpg" alt="photo of a collie">
-        <p>Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have ever seen heckin angery woofer pupper. ruff adorable doggo very hand that fed shibe. Extremely cuuuuuute corgo waggy wags stop it fren.</p>
-        <button class="blue-button"></button>
-      </article>
-      <article class="column">
-        <h2>Facts From Dog</h2>
-        <img class="circle" src="images/dog4-sq.jpg" alt="photo of some type of dog">
-        <p>Most angery pupper I have ever seen such treat heck, dat tungg tho. you are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that fed shibe long bois he made many woofs.</p>
-        <button class="blue-button"></button>
-      </article>
-    </section>
+    <main>
+      <section class="splash">
+        <article class="splash-content">
+          <h1 class="a-site-about">A Site About <span>Some Dogs</span></h1>
+          <img class="circle" src="images/dog1-sq.jpg" alt="photo of a curious boy"/>
+          <form class="dog-name-form" action=" ">
+            <label class ="input-label rounded" for="dog-name">Name</label>
+            <!-- might need Id in for input for javascript -->
+            <input class="dog-name-input" type="text" name="dog-name"/>
+            <button class="dog-name-button rounded">Name This Dog</button>
+          </form>
+        </article>
+      </section>
+      <section class="column-container">
+        <article class="column">
+          <h2 class="column-title">How To Dog</h2>
+          <img class="circle column-image" src="images/dog2-sq.jpg" alt="photo of a pitbull"/>
+          <p class="column-text">Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuute you are doing me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boopers pupper heck ruff.</p>
+          <button class="blue-button rounded"></button>
+        </article>
+        <article class="column">
+          <h2 class="column-title">What Is Dogs</h2>
+          <img class="circle column-image" src="images/dog3-sq.jpg" alt="photo of a collie"/>
+          <p class="column-text">Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have ever seen heckin angery woofer pupper. ruff adorable doggo very hand that fed shibe. Extremely cuuuuuute corgo waggy wags stop it fren.</p>
+          <button class="blue-button rounded"></button>
+        </article>
+        <article class="column">
+          <h2 class="column-title">Facts From Dog</h2>
+          <img class="circle column-image" src="images/dog4-sq.jpg" alt="photo of some type of dog"/>
+          <p class="column-text">Most angery pupper I have ever seen such treat heck, dat tungg tho. you are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that fed shibe long bois he made many woofs.</p>
+          <button class="blue-button rounded"></button>
+        </article>
+      </section>
+    </main>
     <footer>
+      <p class=footer-text>Learn About Dogs Online</p>
+      <img class="footer-icons" src="images/twitter.svg" alt="Twitter Icon"/>
+      <img class="footer-icons" src="images/instagram.svg" alt="Twitter Icon"/>
+      <img class="footer-icons" src="images/facebook.svg" alt="Twitter Icon"/>
+      <img class="footer-icons" src="images/linkedin.svg" alt="Twitter Icon"/>
     </footer>
   </body>
 </html>
