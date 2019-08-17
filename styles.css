@@ -1,24 +1,172 @@
-/* Hex Codes:
-Light blue: #75e2e6
-Dark blue: #048eaa
-Background color: #ffffff
-White text: #ffffff
-Body text: #000000
-Font: Open Sans */
-h1 {
-  color: red;
+/* div vs section - can I group columns with section, or is it just descriptive */
+/* left off circle 2, trying to center pitbull within it's div */
+/* using div in conjunction with semantic ish: do i nest the semantics within div? or how to organize */
+/* border box fix, clear fix - huh? */
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
 }
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  height: 65px;
+  border-bottom: 3px solid #048eaa;
+}
+
+nav {
+  background-color: #75e2e6;
+  height: 100%;
+}
+
+.navbar-links {
+  display: inline;
+  float: right;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.icon {
+  /* margin-left: 20px; */
+  /* margin-top: 5px; */
+  margin: 5px 0 0 20px;
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.splash {
+  height: 465px;
+  padding-bottom: 30px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url("images/park.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.splash-content {
+  width: 450px;
+  margin: auto;
+}
+
+.a-site-about {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 34px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.a-site-about span {
+  font-weight: 800;
+}
+
 .circle {
-  border-radius: 50%;
-  height: 200px;
-  border-color: #3F8cA6;
   border: 3px solid;
+  border-radius: 50%;
+  width: 180px;
+  border-color: #048eaa;
+  margin: 0 auto;
+  display: block;
 }
 
-.nav-links {
-  display: inline-block;
+.dog-name-form {
+  margin: 25px auto 0;
+  width: 370px;
 }
 
-.navbar {
+.dog-name-button {
+ height: 45px;
+ width: 370px;
+ background-color: #75e2e6;
+ font-size: 16px;
+ font-weight: 600;
+ font-family: "Open Sans", sans-serif;
+ border: none;
+}
+
+.dog-name-input {
+  width: 370px;
+  height: 45px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.34);
+}
+
+.rounded {
+  border-radius: 3px;
+}
+
+.input-label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.column-container {
+  height: 640px;
+}
+
+.column {
+  width: 290px;
+  height: 640px;
+  margin: 0 33px;
   display: inline-block;
+  vertical-align: top;
+  padding: 40px 0;
+}
+
+.column-title {
+  margin: 0;
+  text-align: center;
+}
+
+.column-image {
+  margin: 25px auto;
+}
+
+.column-text {
+
+}
+
+.blue-button {
+  width: 290px;
+  height: 45px;
+  vertical-align: bottom;
+  background-color: #048eaa;
+}
+
+footer {
+  height: 180px;
+  background-color: #048eaa;
+  text-align: center;
+  padding: 45px;
+}
+
+.footer-text {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+footer img {
+  margin: 0 8px;
 }
