@@ -12,4 +12,4 @@ The purpose of this project was to get hands-on, practical experience with accur
 
 ## My Finished site
 
-<img src="images/ertmer's-dog-party-screenshot.jpg" alt="ertmer's dog party screenshot"/>
+<img src="images/ertmers-dog-party-screenshot.jpg" alt="ertmer's dog party screenshot"/>
