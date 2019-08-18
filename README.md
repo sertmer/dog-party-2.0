@@ -8,8 +8,8 @@ The purpose of this project was to get hands-on, practical experience with accur
 
 ## The Comp
 
-<img src="comp.jpg" alt="Comp Screenshot"/>
+<img src="images/comp.jpg" alt="Comp Screenshot"/>
 
 ## My Finished site
 
-<img src="ertmer's-dog-party-screenshot.jpg" alt="ertmer's dog party screenshot"/>
+<img src="images/ertmer's-dog-party-screenshot.jpg" alt="ertmer's dog party screenshot"/>
